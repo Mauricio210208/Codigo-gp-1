@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+bool desbloquear_livro(int chave) {
+    int numeroMagico = 7;
+
+    if (chave == numeroMagico){
+        printf("\nLivro DESBLOQUEADO! O segredo está nas páginas do livro!\n");
+        return true;
+    } else {
+        printf("\nA chave está errada. O livro continua trancado...\n");
+        return false;
+    }
+}
+
+int main() {
+    setlocale(LC_ALL, "Portuguese");
+
+    printf("----------| Bem-vindo à Biblioteca Mágica! |----------\n");
+
+    int chaveTentativa;
+    bool livroDesbloqueado = false;
+
+    while (!livroDesbloqueado) {
+        printf("\nPara abrir o livro, insira a chave mágica: ");
+        scanf("%d", &chaveTentativa);
+
+        livroDesbloqueado = desbloquear_livro(chaveTentativa);
+    }
+
+}
