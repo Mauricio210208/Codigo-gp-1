@@ -1,1 +1,17 @@
-# Codigo-gp-1
+# Mistério do Livro Perdido da Biblioteca Mágica
+
+Na antiga Biblioteca Mágica, um livro raro foi perdido entre as prateleiras misteriosas. Dizem que quem conseguir abrir o livro mágico terá acesso a segredos do universo. No entanto, o livro está trancado com um código secreto.
+
+Recentemente, alguns magos tentaram desvendar o código, mas falharam. O último mago que tentou resolver o enigma deixou algumas pistas. Para abrir o livro, alguém precisa corrigir um erro no código do feitiço que bloqueia o livro.
+
+Mas há um problema: a chave para abrir o livro está em uma função, e essa função contém um erro de lógica. Um detalhe muito importante foi deixado de lado, e sem corrigir isso, o livro nunca se abrirá.
+
+# Pistas importantes:
+
+Dica 1: A função que impede a abertura do livro contém um erro na lógica de comparação e alguns erros de sintaxe. O número mágico foi misturado com outra variável e precisa ser isolado.
+
+Dica 2: A função de desbloqueio depende de um número secreto que foi modificado de forma incorreta. Refaça o cálculo corretamente, e o segredo será revelado!
+
+Dica 3: O número mágico para o código é 7.
+
+Dica 4: Preste atenção na leitura!!
