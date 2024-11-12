@@ -6,7 +6,7 @@ bool desbloquear_livro(int chave) {
     int numeroMagico = 7;
 
     if (chave == (numeroMagico * 2))(
-        printf("Livro DESBLOQUEADO! O segredo está nas páginas do livro!\n");
+        printf("\nLivro DESBLOQUEADO! O segredo está nas páginas do livro!\n");
         return true;
     ) else {
         printf("\nA chave está errada. O livro continua trancado...\n");
